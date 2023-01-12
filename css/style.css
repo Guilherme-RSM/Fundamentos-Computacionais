@@ -1,0 +1,67 @@
+/*IMPORTANDO FONTE DO GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 164, 36);
+    background: rgb(255, 164, 36);
+    background: linear-gradient(3deg, rgba(255, 164, 36, 1) 41%, rgba(247, 136, 0, 1) 78%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    width: 100vw;
+
+}
+
+main {
+    width: 100%;
+
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #f3f3f3;
+}
+
+details {
+    background: #f3f3f3;
+    margin-top:40px;
+    padding: 20px;
+
+
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+summary {
+    font-size: 1.5em;
+    font-weight: 600;
+
+
+
+}
+
+summary:hover {
+    cursor: pointer;
+}
